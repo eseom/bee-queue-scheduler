@@ -6,6 +6,8 @@ a simple cron scheduler for [bee-queue](https://github.com/bee-queue/bee-queue)
 ```bash
 yarn add bee-queue-scheduler
 ```
+The idea is simple. We can use ```schedule``` instead of ```save```.
+I do not know what to do anymore because these codes fit my requirements. I would like to further develop the code, but if you need more, I would like you to suggest.
 
 ## Usage
 
