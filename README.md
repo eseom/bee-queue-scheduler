@@ -1,7 +1,6 @@
 ## Overview
 
-a simple cron scheduler for bee-queue
-
+a simple cron scheduler for [bee-queue](https://github.com/bee-queue/bee-queue)
 ## Installation
 
 ```bash
