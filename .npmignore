@@ -1,0 +1,7 @@
+node_modules
+docker-compose.yml
+docker/
+example/
+README.md
+.eslintignore
+.eslintrc.json

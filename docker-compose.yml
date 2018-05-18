@@ -1,0 +1,11 @@
+bee_queue_scheduler_redis:
+  container_name: bee_queue_scheduler_redis
+  image: bitnami/redis:latest
+  environment:
+    - ALLOW_EMPTY_PASSWORD=yes
+  labels:
+    kompose.service.type: nodeport
+  ports:
+    - 16901:6379
+  volumes:
+    - ./docker/redis_data:/bitnami/redis
